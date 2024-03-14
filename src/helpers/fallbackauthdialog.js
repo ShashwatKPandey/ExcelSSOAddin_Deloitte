@@ -112,7 +112,7 @@ export async function dialogFallback(callback) {
     callbackFunction = callback;
 
     // We fall back to Dialog API for any error.
-    const url = "/fallbackauthdialog.html";
+    const url = "/ExcelSSOAddin_Deloitte/fallbackauthdialog.html";
     showLoginPopup(url);
   }
 }
