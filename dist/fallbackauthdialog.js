@@ -31865,7 +31865,7 @@ var msalConfig = {
   auth: {
     clientId: clientId,
     authority: "https://login.microsoftonline.com/common",
-    redirectUri: "https://localhost:3000/fallbackauthdialog.html",
+    redirectUri: "https://shashwatkpandey.github.io/ExcelSSOAddin_Deloitte/dist/fallbackauthdialog.html",
     // Update config script to enable `https://${window.location.host}/fallbackauthdialog.html`,
     navigateToLoginRequestUrl: false
   },
