@@ -31979,7 +31979,7 @@ function _dialogFallback() {
           callbackFunction = callback;
 
           // We fall back to Dialog API for any error.
-          url = "ExcelSSOAddin_Deloitte/fallbackauthdialog.html";
+          url = "/ExcelSSOAddin_Deloitte/fallbackauthdialog.html";
           showLoginPopup(url);
         case 14:
         case "end":
